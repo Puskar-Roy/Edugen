@@ -25,9 +25,9 @@ const Navbar = () => {
   };
   return (
     <header className="">
-      <nav className="flex justify-between items-center w-[80%] mx-auto">
+      <nav className="flex justify-between items-center w-[80%] mx-auto my-[30px]">
         <Link className="z-20" href="/">
-          <Image src={logo} height={20} width={160} alt="logo" />
+          <Image src={logo} height={20} width={110} alt="logo" />
         </Link>
         <div className="sm:hidden">
           {toggle ? (
